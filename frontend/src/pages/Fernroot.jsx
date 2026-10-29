@@ -151,7 +151,7 @@ function Fernroot() {
       >
         <div className="headline">
           <h1>
-            <span className="l1 a rv" style={{ animationDelay: '.25s' }}>"Plantados en la casa de Jehvá, en los atrios de nuestro Dios floreceran"</span>
+            <span className="l1 a rv" style={{ animationDelay: '.25s' }}>"Plantados en la casa de Jehová, en los atrios de nuestro Dios floreceran"</span>
             <span className="l2 a rv" style={{ animationDelay: '.42s' }}>Salmo 92:13-14</span>
           </h1>
         </div>
