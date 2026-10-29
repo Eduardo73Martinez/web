@@ -27,7 +27,7 @@ function Navbar() {
     { to: '/about', label: 'Acerca de' },
     { to: '/flux-orb', label: 'Flux Orb' },
     { to: '/estudio', label: 'Estudio' },
-    { to: '/cosmos', label: 'Cosmos' },
+    { to: '/principios', label: 'Principios' },
     { to: '/prueba', label: 'Biblioteca 3D' },
     { to: '/login', label: 'Login' }
   ]
@@ -36,7 +36,7 @@ function Navbar() {
     <nav className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container">
         <Link to="/" className="navbar__brand">
-          <span className="navbar__logo" link={logo}></span>
+          <img src={logo} alt="Logo" className="navbar__logo" />
           <span className="navbar__name">Iglesia</span>
         </Link>
 

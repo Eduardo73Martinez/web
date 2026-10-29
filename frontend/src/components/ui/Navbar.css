@@ -42,8 +42,10 @@
 }
 
 .navbar__logo {
-  font-size: 1.75rem;
-  line-height: 1;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-bottom: -4px;
 }
 
 .navbar__name {

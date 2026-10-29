@@ -4,7 +4,8 @@ import About from './pages/About'
 import Login from './pages/Login'
 import FluxOrbDemo from './pages/FluxOrbDemo'
 import ScrollWorld from './pages/ScrollWorld'
-import CosmosWorld from './pages/CosmosWorld'
+import Prueba2 from './pages/Prueba2'
+import Fernroot from './pages/Fernroot'
 import Navbar from './components/ui/Navbar'
 import './App.css'
 
@@ -19,7 +20,8 @@ function App() {
           <Route path="/flux-orb" element={<FluxOrbDemo />} />
           <Route path="/about" element={<About />} />
           <Route path="/prueba" element={<ScrollWorld />} />
-          <Route path="/cosmos" element={<CosmosWorld />} />
+          <Route path="/prueba2" element={<Prueba2 />} />
+          <Route path="/principios" element={<Fernroot />} />
         </Routes>
       </main>
     </div>
